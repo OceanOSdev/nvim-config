@@ -1,0 +1,10 @@
+# Editor temporary files
+*.swp
+*.swo
+*~
+*.bak
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
