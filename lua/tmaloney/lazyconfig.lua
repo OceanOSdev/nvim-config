@@ -99,6 +99,12 @@ require("lazy").setup({
 				hint = 0,
 			},
 		},
+
+		config = function(_, opts)
+			local doom = require("doom-diagnostics")
+			doom.enabled = false
+			doom.setup(opts)
+		end,
 	},
 
 	-- {
